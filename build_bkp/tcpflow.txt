@@ -1,0 +1,21 @@
+Classic PCAP, microsecond timestamps; Ethernet link type
+Packets read: 264
+Packets skipped (unsupported protocol or malformed): 0
+Bidirectional IPv4/TCP flows: 16
+
+TCP flow: 35.190.80.1:443 <-> 192.168.111.130:34056 | packets 1/1 | TCP payload bytes 0/0
+FTP control candidate: 44.241.66.173:21 <-> 192.168.111.130:37194 | packets 24/18 | TCP payload bytes 424/206 | SYN seen
+TCP flow: 44.241.66.173:1076 <-> 192.168.111.130:46562 | packets 4/5 | TCP payload bytes 0/14 | SYN seen | FIN seen
+TCP flow: 44.241.66.173:1173 <-> 192.168.111.130:50638 | packets 1/0 | TCP payload bytes 0/0
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:48332 | packets 41/18 | TCP payload bytes 4546/43196
+TCP flow: 104.18.39.21:443 <-> 192.168.111.130:45388 | packets 8/7 | TCP payload bytes 216/236
+TCP flow: 104.18.39.21:443 <-> 192.168.111.130:60412 | packets 6/6 | TCP payload bytes 192/208
+TCP flow: 172.64.150.28:443 <-> 192.168.111.130:56554 | packets 7/5 | TCP payload bytes 439/3720
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39154 | packets 2/1 | TCP payload bytes 28/32
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:54928 | packets 4/2 | TCP payload bytes 56/64
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:55572 | packets 4/2 | TCP payload bytes 56/64
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:55588 | packets 4/2 | TCP payload bytes 56/64
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:57984 | packets 18/9 | TCP payload bytes 5713/18239 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:60626 | packets 32/28 | TCP payload bytes 318690/4493 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:47372 <-> 192.178.158.188:5228 | packets 1/1 | TCP payload bytes 0/0
+TCP flow: 192.168.111.130:47378 <-> 192.178.158.188:5228 | packets 1/1 | TCP payload bytes 0/0

@@ -1,0 +1,3 @@
+/home/bhavesh/Projects/FTP_REGENERATOR/build/CMakeFiles/ftp-recover.dir
+/home/bhavesh/Projects/FTP_REGENERATOR/build/CMakeFiles/edit_cache.dir
+/home/bhavesh/Projects/FTP_REGENERATOR/build/CMakeFiles/rebuild_cache.dir

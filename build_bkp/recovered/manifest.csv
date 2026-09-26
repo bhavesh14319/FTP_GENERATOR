@@ -1,0 +1,2 @@
+command,remote_name,data_flow,output_file,status,captured_bytes,unique_bytes,gap_count,gap_bytes,overlap_bytes,conflicting_overlap_bytes,note
+"STOR","file-sample_150kB.pdf","192.168.111.130:36060 -> 44.241.66.173:1083","file-sample_150kB.pdf","complete",364566,364566,0,0,0,0,""

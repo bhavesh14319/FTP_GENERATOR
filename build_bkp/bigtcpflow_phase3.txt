@@ -1,0 +1,479 @@
+Classic PCAP, microsecond timestamps; Ethernet link type
+Packets read: 4025
+Packets skipped (unsupported protocol or malformed): 0
+Bidirectional IPv4/TCP flows: 99
+
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60116 | packets 12/12 | TCP payload bytes 9474/2751 | SYN seen
+  Reassembled 4.150.223.115:443 -> 192.168.111.130:60116 | payload segments 4 | captured bytes 9474 | unique ordered bytes 9474 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2074545783 through 2074555257 (exclusive), 9474 ordered bytes
+  Reassembled 192.168.111.130:60116 -> 4.150.223.115:443 | payload segments 6 | captured bytes 2751 | unique ordered bytes 2751 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3240223162 through 3240225913 (exclusive), 2751 ordered bytes
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60126 | packets 14/14 | TCP payload bytes 9604/4852 | SYN seen
+  Reassembled 4.150.223.115:443 -> 192.168.111.130:60126 | payload segments 5 | captured bytes 9604 | unique ordered bytes 9604 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 824646375 through 824655979 (exclusive), 9604 ordered bytes
+  Reassembled 192.168.111.130:60126 -> 4.150.223.115:443 | payload segments 7 | captured bytes 4852 | unique ordered bytes 4852 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1730824938 through 1730829790 (exclusive), 4852 ordered bytes
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60140 | packets 8/8 | TCP payload bytes 9042/2153 | SYN seen | FIN seen
+  Reassembled 4.150.223.115:443 -> 192.168.111.130:60140 | payload segments 2 | captured bytes 9042 | unique ordered bytes 9042 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2124442941 through 2124451983 (exclusive), 9042 ordered bytes
+  Reassembled 192.168.111.130:60140 -> 4.150.223.115:443 | payload segments 4 | captured bytes 2153 | unique ordered bytes 2153 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3071954506 through 3071956659 (exclusive), 2153 ordered bytes
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:45904 | packets 18/17 | TCP payload bytes 25522/4582 | SYN seen
+  Reassembled 13.107.5.93:443 -> 192.168.111.130:45904 | payload segments 8 | captured bytes 25522 | unique ordered bytes 25522 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1493382665 through 1493408187 (exclusive), 25522 ordered bytes
+  Reassembled 192.168.111.130:45904 -> 13.107.5.93:443 | payload segments 7 | captured bytes 4582 | unique ordered bytes 4582 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1083212947 through 1083217529 (exclusive), 4582 ordered bytes
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:45912 | packets 17/16 | TCP payload bytes 10223/4923 | SYN seen
+  Reassembled 13.107.5.93:443 -> 192.168.111.130:45912 | payload segments 6 | captured bytes 10223 | unique ordered bytes 10223 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 566503460 through 566513683 (exclusive), 10223 ordered bytes
+  Reassembled 192.168.111.130:45912 -> 13.107.5.93:443 | payload segments 8 | captured bytes 4923 | unique ordered bytes 4923 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3149370531 through 3149375454 (exclusive), 4923 ordered bytes
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:54114 | packets 14/14 | TCP payload bytes 11414/1476 | SYN seen | FIN seen
+  Reassembled 13.107.5.93:443 -> 192.168.111.130:54114 | payload segments 8 | captured bytes 11414 | unique ordered bytes 11414 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1791111004 through 1791122418 (exclusive), 11414 ordered bytes
+  Reassembled 192.168.111.130:54114 -> 13.107.5.93:443 | payload segments 3 | captured bytes 1476 | unique ordered bytes 1476 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2547222489 through 2547223965 (exclusive), 1476 ordered bytes
+TCP flow: 13.107.213.48:443 <-> 192.168.111.130:37100 | packets 14/13 | TCP payload bytes 11801/2647 | SYN seen | FIN seen
+  Reassembled 13.107.213.48:443 -> 192.168.111.130:37100 | payload segments 6 | captured bytes 11801 | unique ordered bytes 11801 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 374562219 through 374574020 (exclusive), 11801 ordered bytes
+  Reassembled 192.168.111.130:37100 -> 13.107.213.48:443 | payload segments 5 | captured bytes 2647 | unique ordered bytes 2647 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3457707285 through 3457709932 (exclusive), 2647 ordered bytes
+TCP flow: 13.107.213.48:443 <-> 192.168.111.130:41136 | packets 18/16 | TCP payload bytes 12615/2802 | SYN seen | FIN seen
+  Reassembled 13.107.213.48:443 -> 192.168.111.130:41136 | payload segments 8 | captured bytes 12615 | unique ordered bytes 12615 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1139632558 through 1139645173 (exclusive), 12615 ordered bytes
+  Reassembled 192.168.111.130:41136 -> 13.107.213.48:443 | payload segments 7 | captured bytes 2802 | unique ordered bytes 2802 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2499922776 through 2499925578 (exclusive), 2802 ordered bytes
+TCP flow: 13.107.246.48:443 <-> 192.168.111.130:60886 | packets 20/18 | TCP payload bytes 90052/2586 | SYN seen | FIN seen
+  Reassembled 13.107.246.48:443 -> 192.168.111.130:60886 | payload segments 12 | captured bytes 90052 | unique ordered bytes 90052 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2091394801 through 2091484853 (exclusive), 90052 ordered bytes
+  Reassembled 192.168.111.130:60886 -> 13.107.246.48:443 | payload segments 5 | captured bytes 2586 | unique ordered bytes 2586 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 739285516 through 739288102 (exclusive), 2586 ordered bytes
+TCP flow: 20.184.175.11:443 <-> 192.168.111.130:38038 | packets 60/38 | TCP payload bytes 10081/47227 | SYN seen
+  Reassembled 20.184.175.11:443 -> 192.168.111.130:38038 | payload segments 13 | captured bytes 10081 | unique ordered bytes 10081 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 886000106 through 886010187 (exclusive), 10081 ordered bytes
+  Reassembled 192.168.111.130:38038 -> 20.184.175.11:443 | payload segments 21 | captured bytes 47227 | unique ordered bytes 47227 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 196110162 through 196157389 (exclusive), 47227 ordered bytes
+TCP flow: 20.207.73.85:443 <-> 192.168.111.130:42392 | packets 27/24 | TCP payload bytes 14901/3183 | SYN seen | FIN seen
+  Reassembled 20.207.73.85:443 -> 192.168.111.130:42392 | payload segments 12 | captured bytes 14901 | unique ordered bytes 14901 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1828023217 through 1828038118 (exclusive), 14901 ordered bytes
+  Reassembled 192.168.111.130:42392 -> 20.207.73.85:443 | payload segments 12 | captured bytes 3183 | unique ordered bytes 3183 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1189122546 through 1189125729 (exclusive), 3183 ordered bytes
+TCP flow: 34.54.185.247:443 <-> 192.168.111.130:46248 | packets 21/20 | TCP payload bytes 5020/4034 | SYN seen | FIN seen
+  Reassembled 34.54.185.247:443 -> 192.168.111.130:46248 | payload segments 6 | captured bytes 5020 | unique ordered bytes 5020 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1312951638 through 1312956658 (exclusive), 5020 ordered bytes
+  Reassembled 192.168.111.130:46248 -> 34.54.185.247:443 | payload segments 11 | captured bytes 4034 | unique ordered bytes 4034 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1187746997 through 1187751031 (exclusive), 4034 ordered bytes
+TCP flow: 34.54.185.247:443 <-> 192.168.111.130:46258 | packets 10/9 | TCP payload bytes 4155/2112 | SYN seen | FIN seen
+  Reassembled 34.54.185.247:443 -> 192.168.111.130:46258 | payload segments 3 | captured bytes 4155 | unique ordered bytes 4155 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1943481044 through 1943485199 (exclusive), 4155 ordered bytes
+  Reassembled 192.168.111.130:46258 -> 34.54.185.247:443 | payload segments 4 | captured bytes 2112 | unique ordered bytes 2112 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3471825037 through 3471827149 (exclusive), 2112 ordered bytes
+TCP flow: 34.107.243.93:443 <-> 192.168.111.130:57862 | packets 8/8 | TCP payload bytes 78/141 | FIN seen
+  Reassembled 34.107.243.93:443 -> 192.168.111.130:57862 | payload segments 2 | captured bytes 78 | unique ordered bytes 78 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 892103447 through 892103525 (exclusive), 78 ordered bytes
+  Reassembled 192.168.111.130:57862 -> 34.107.243.93:443 | payload segments 4 | captured bytes 141 | unique ordered bytes 141 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 75759483 through 75759624 (exclusive), 141 ordered bytes
+FTP control candidate: 44.241.66.173:21 <-> 192.168.111.130:53360 | packets 30/24 | TCP payload bytes 566/265 | SYN seen
+  Reassembled 44.241.66.173:21 -> 192.168.111.130:53360 | payload segments 16 | captured bytes 566 | unique ordered bytes 566 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1116276123 through 1116276689 (exclusive), 566 ordered bytes
+    FTP control lines (server -> client): 28
+      reply 220: 220 Welcome to the DLP Test FTP Server
+      reply 211: 211-Features: (multiline start)
+      line:  AUTH TLS
+      line:  EPRT
+      line:  EPSV
+      line:  MDTM
+      line:  PASV
+      line:  PBSZ
+      line:  PROT
+      line:  REST STREAM
+      line:  SIZE
+      line:  TVFS
+      line:  UTF8
+      reply 211: 211 End
+      reply 200: 200 Always in UTF8 mode.
+      reply 331: 331 Please specify the password.
+      reply 230: 230 Login successful.
+      reply 257: 257 "/"
+      reply 200: 200 Switching to Binary mode.
+      reply 227: 227 Entering Passive Mode (44,241,66,173,4,59).
+      reply 150: 150 Ok to send data.
+      reply 226: 226 Transfer complete.
+      reply 500: 500 Unknown SITE command.
+      reply 500: 500 Unknown SITE command.
+      reply 200: 200 Switching to ASCII mode.
+      reply 227: 227 Entering Passive Mode (44,241,66,173,4,83).
+      reply 150: 150 Here comes the directory listing.
+      reply 226: 226 Directory send OK.
+  Reassembled 192.168.111.130:53360 -> 44.241.66.173:21 | payload segments 13 | captured bytes 265 | unique ordered bytes 265 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 28922860 through 28923125 (exclusive), 265 ordered bytes
+    FTP control lines (client -> server): 13
+      command: FEAT
+      command: OPTS UTF8 ON
+      command: USER dlpuser
+      command: PASS <redacted>
+      command: PWD
+      command: TYPE I
+      command: PASV
+      command: STOR file-sample_150kB.pdf
+      command: SITE UTIME 20260926114116 file-sample_150kB.pdf
+      command: SITE UTIME file-sample_150kB.pdf 20260926114116 20260926114116 20260926114116 UTC
+      command: TYPE A
+      command: PASV
+      command: LIST
+TCP flow: 44.241.66.173:1083 <-> 192.168.111.130:36060 | packets 262/77 | TCP payload bytes 0/364566 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:36060 -> 44.241.66.173:1083 | payload segments 71 | captured bytes 364566 | unique ordered bytes 364566 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 789289508 through 789654074 (exclusive), 364566 ordered bytes
+TCP flow: 44.241.66.173:1107 <-> 192.168.111.130:45900 | packets 3/4 | TCP payload bytes 2892/0 | SYN seen | FIN seen
+  Reassembled 44.241.66.173:1107 -> 192.168.111.130:45900 | payload segments 1 | captured bytes 2892 | unique ordered bytes 2892 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 410597806 through 410600698 (exclusive), 2892 ordered bytes
+TCP flow: 52.140.63.241:443 <-> 192.168.111.130:55838 | packets 15/15 | TCP payload bytes 7846/2857 | SYN seen
+  Reassembled 52.140.63.241:443 -> 192.168.111.130:55838 | payload segments 6 | captured bytes 7846 | unique ordered bytes 7846 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1774000258 through 1774008104 (exclusive), 7846 ordered bytes
+  Reassembled 192.168.111.130:55838 -> 52.140.63.241:443 | payload segments 6 | captured bytes 2857 | unique ordered bytes 2857 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 532000128 through 532002985 (exclusive), 2857 ordered bytes
+TCP flow: 52.140.63.241:443 <-> 192.168.111.130:55844 | packets 18/16 | TCP payload bytes 8234/3196 | SYN seen
+  Reassembled 52.140.63.241:443 -> 192.168.111.130:55844 | payload segments 8 | captured bytes 8234 | unique ordered bytes 8234 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 452474408 through 452482642 (exclusive), 8234 ordered bytes
+  Reassembled 192.168.111.130:55844 -> 52.140.63.241:443 | payload segments 7 | captured bytes 3196 | unique ordered bytes 3196 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3096573437 through 3096576633 (exclusive), 3196 ordered bytes
+TCP flow: 91.189.91.61:80 <-> 192.168.111.130:50550 | packets 4/4 | TCP payload bytes 79/87 | SYN seen | FIN seen
+  Reassembled 91.189.91.61:80 -> 192.168.111.130:50550 | payload segments 1 | captured bytes 79 | unique ordered bytes 79 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2001758487 through 2001758566 (exclusive), 79 ordered bytes
+  Reassembled 192.168.111.130:50550 -> 91.189.91.61:80 | payload segments 1 | captured bytes 87 | unique ordered bytes 87 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3217593891 through 3217593978 (exclusive), 87 ordered bytes
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33124 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33126 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33128 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42916 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42932 | packets 1/1 | TCP payload bytes 0/0 | FIN seen
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42938 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 104.16.79.73:443 <-> 192.168.111.130:54526 | packets 16/12 | TCP payload bytes 14413/2469 | SYN seen
+  Reassembled 104.16.79.73:443 -> 192.168.111.130:54526 | payload segments 8 | captured bytes 14413 | unique ordered bytes 14413 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2072185879 through 2072200292 (exclusive), 14413 ordered bytes
+  Reassembled 192.168.111.130:54526 -> 104.16.79.73:443 | payload segments 6 | captured bytes 2469 | unique ordered bytes 2469 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 910211480 through 910213949 (exclusive), 2469 ordered bytes
+TCP flow: 104.16.79.73:443 <-> 192.168.111.130:54540 | packets 10/9 | TCP payload bytes 3818/2111 | SYN seen | FIN seen
+  Reassembled 104.16.79.73:443 -> 192.168.111.130:54540 | payload segments 3 | captured bytes 3818 | unique ordered bytes 3818 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1858679838 through 1858683656 (exclusive), 3818 ordered bytes
+  Reassembled 192.168.111.130:54540 -> 104.16.79.73:443 | payload segments 4 | captured bytes 2111 | unique ordered bytes 2111 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1727221903 through 1727224014 (exclusive), 2111 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:33362 | packets 8/8 | TCP payload bytes 5526/2792 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:33362 | payload segments 2 | captured bytes 5526 | unique ordered bytes 5526 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 260723349 through 260728875 (exclusive), 5526 ordered bytes
+  Reassembled 192.168.111.130:33362 -> 104.18.32.47:443 | payload segments 2 | captured bytes 2792 | unique ordered bytes 2792 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1909020628 through 1909023420 (exclusive), 2792 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:36920 | packets 19/11 | TCP payload bytes 9717/15355 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:36920 | payload segments 4 | captured bytes 9717 | unique ordered bytes 9717 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 503085108 through 503094825 (exclusive), 9717 ordered bytes
+  Reassembled 192.168.111.130:36920 -> 104.18.32.47:443 | payload segments 4 | captured bytes 15355 | unique ordered bytes 15355 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1393511011 through 1393526366 (exclusive), 15355 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:36924 | packets 8/8 | TCP payload bytes 5529/2792 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:36924 | payload segments 2 | captured bytes 5529 | unique ordered bytes 5529 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1033331970 through 1033337499 (exclusive), 5529 ordered bytes
+  Reassembled 192.168.111.130:36924 -> 104.18.32.47:443 | payload segments 2 | captured bytes 2792 | unique ordered bytes 2792 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1786556747 through 1786559539 (exclusive), 2792 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:42646 | packets 24/13 | TCP payload bytes 5194/23929 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:42646 | payload segments 3 | captured bytes 5194 | unique ordered bytes 5194 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 665586578 through 665591772 (exclusive), 5194 ordered bytes
+  Reassembled 192.168.111.130:42646 -> 104.18.32.47:443 | payload segments 6 | captured bytes 23929 | unique ordered bytes 23929 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 290645779 through 290669708 (exclusive), 23929 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:42658 | packets 8/8 | TCP payload bytes 5080/2804 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:42658 | payload segments 2 | captured bytes 5080 | unique ordered bytes 5080 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1048006585 through 1048011665 (exclusive), 5080 ordered bytes
+  Reassembled 192.168.111.130:42658 -> 104.18.32.47:443 | payload segments 2 | captured bytes 2804 | unique ordered bytes 2804 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 351085343 through 351088147 (exclusive), 2804 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:48332 | packets 169/76 | TCP payload bytes 13316/172075
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:48332 | payload segments 28 | captured bytes 13316 | unique ordered bytes 13316 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 781427703 through 781441019 (exclusive), 13316 ordered bytes
+  Reassembled 192.168.111.130:48332 -> 104.18.32.47:443 | payload segments 50 | captured bytes 172075 | unique ordered bytes 172075 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 509228467 through 509400542 (exclusive), 172075 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:58058 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:60664 | packets 8/8 | TCP payload bytes 5076/2804 | SYN seen | FIN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:60664 | payload segments 2 | captured bytes 5076 | unique ordered bytes 5076 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 88570599 through 88575675 (exclusive), 5076 ordered bytes
+  Reassembled 192.168.111.130:60664 -> 104.18.32.47:443 | payload segments 2 | captured bytes 2804 | unique ordered bytes 2804 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 183182956 through 183185760 (exclusive), 2804 ordered bytes
+TCP flow: 104.18.39.21:443 <-> 192.168.111.130:39484 | packets 30/22 | TCP payload bytes 604/672
+  Reassembled 104.18.39.21:443 -> 192.168.111.130:39484 | payload segments 15 | captured bytes 604 | unique ordered bytes 604 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 1374437511 through 1374438115 (exclusive), 604 ordered bytes
+  Reassembled 192.168.111.130:39484 -> 104.18.39.21:443 | payload segments 15 | captured bytes 672 | unique ordered bytes 672 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 3200056046 through 3200056718 (exclusive), 672 ordered bytes
+TCP flow: 104.21.79.170:443 <-> 192.168.111.130:56232 | packets 14/13 | TCP payload bytes 11672/3186 | SYN seen | FIN seen
+  Reassembled 104.21.79.170:443 -> 192.168.111.130:56232 | payload segments 3 | captured bytes 11672 | unique ordered bytes 11672 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2006925376 through 2006937048 (exclusive), 11672 ordered bytes
+  Reassembled 192.168.111.130:56232 -> 104.21.79.170:443 | payload segments 7 | captured bytes 3186 | unique ordered bytes 3186 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 75968366 through 75971552 (exclusive), 3186 ordered bytes
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48742 | packets 26/22 | TCP payload bytes 108785/2551 | SYN seen
+  Reassembled 104.26.9.123:443 -> 192.168.111.130:48742 | payload segments 17 | captured bytes 108785 | unique ordered bytes 108785 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1959547645 through 1959656430 (exclusive), 108785 ordered bytes
+  Reassembled 192.168.111.130:48742 -> 104.26.9.123:443 | payload segments 7 | captured bytes 2551 | unique ordered bytes 2551 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 4160421559 through 4160424110 (exclusive), 2551 ordered bytes
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48746 | packets 10/9 | TCP payload bytes 3790/2100 | SYN seen | FIN seen
+  Reassembled 104.26.9.123:443 -> 192.168.111.130:48746 | payload segments 3 | captured bytes 3790 | unique ordered bytes 3790 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1362787545 through 1362791335 (exclusive), 3790 ordered bytes
+  Reassembled 192.168.111.130:48746 -> 104.26.9.123:443 | payload segments 4 | captured bytes 2100 | unique ordered bytes 2100 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1220079985 through 1220082085 (exclusive), 2100 ordered bytes
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48748 | packets 10/9 | TCP payload bytes 3792/2100 | SYN seen | FIN seen
+  Reassembled 104.26.9.123:443 -> 192.168.111.130:48748 | payload segments 3 | captured bytes 3792 | unique ordered bytes 3792 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 277550460 through 277554252 (exclusive), 3792 ordered bytes
+  Reassembled 192.168.111.130:48748 -> 104.26.9.123:443 | payload segments 4 | captured bytes 2100 | unique ordered bytes 2100 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2544138118 through 2544140218 (exclusive), 2100 ordered bytes
+TCP flow: 142.250.70.104:443 <-> 192.168.111.130:34810 | packets 10/9 | TCP payload bytes 6415/2106 | SYN seen | FIN seen
+  Reassembled 142.250.70.104:443 -> 192.168.111.130:34810 | payload segments 3 | captured bytes 6415 | unique ordered bytes 6415 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1873766142 through 1873772557 (exclusive), 6415 ordered bytes
+  Reassembled 192.168.111.130:34810 -> 142.250.70.104:443 | payload segments 4 | captured bytes 2106 | unique ordered bytes 2106 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 997136342 through 997138448 (exclusive), 2106 ordered bytes
+TCP flow: 142.250.70.104:443 <-> 192.168.111.130:34824 | packets 35/34 | TCP payload bytes 144305/2459 | SYN seen | FIN seen
+  Reassembled 142.250.70.104:443 -> 192.168.111.130:34824 | payload segments 24 | captured bytes 144305 | unique ordered bytes 144305 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2135967831 through 2136112136 (exclusive), 144305 ordered bytes
+  Reassembled 192.168.111.130:34824 -> 142.250.70.104:443 | payload segments 7 | captured bytes 2459 | unique ordered bytes 2459 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 346303508 through 346305967 (exclusive), 2459 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38172 | packets 11/10 | TCP payload bytes 5820/2107 | SYN seen | FIN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38172 | payload segments 3 | captured bytes 5820 | unique ordered bytes 5820 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 178981868 through 178987688 (exclusive), 5820 ordered bytes
+  Reassembled 192.168.111.130:38172 -> 142.250.134.132:443 | payload segments 4 | captured bytes 2107 | unique ordered bytes 2107 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1713989351 through 1713991458 (exclusive), 2107 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38180 | packets 12/11 | TCP payload bytes 5822/2107 | SYN seen | FIN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38180 | payload segments 4 | captured bytes 5822 | unique ordered bytes 5822 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1313162264 through 1313168086 (exclusive), 5822 ordered bytes
+  Reassembled 192.168.111.130:38180 -> 142.250.134.132:443 | payload segments 4 | captured bytes 2107 | unique ordered bytes 2107 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3051707742 through 3051709849 (exclusive), 2107 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38186 | packets 9/9 | TCP payload bytes 5820/2107 | SYN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38186 | payload segments 3 | captured bytes 5820 | unique ordered bytes 5820 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1047282878 through 1047288698 (exclusive), 5820 ordered bytes
+  Reassembled 192.168.111.130:38186 -> 142.250.134.132:443 | payload segments 4 | captured bytes 2107 | unique ordered bytes 2107 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3350879210 through 3350881317 (exclusive), 2107 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38200 | packets 11/10 | TCP payload bytes 5821/2107 | SYN seen | FIN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38200 | payload segments 4 | captured bytes 5821 | unique ordered bytes 5821 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2009619167 through 2009624988 (exclusive), 5821 ordered bytes
+  Reassembled 192.168.111.130:38200 -> 142.250.134.132:443 | payload segments 4 | captured bytes 2107 | unique ordered bytes 2107 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3178066445 through 3178068552 (exclusive), 2107 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38204 | packets 23/19 | TCP payload bytes 26197/2853 | SYN seen | FIN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38204 | payload segments 8 | captured bytes 26197 | unique ordered bytes 26197 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 308873491 through 308899688 (exclusive), 26197 ordered bytes
+  Reassembled 192.168.111.130:38204 -> 142.250.134.132:443 | payload segments 11 | captured bytes 2853 | unique ordered bytes 2853 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 160853540 through 160856393 (exclusive), 2853 ordered bytes
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38216 | packets 12/11 | TCP payload bytes 5822/2107 | SYN seen | FIN seen
+  Reassembled 142.250.134.132:443 -> 192.168.111.130:38216 | payload segments 4 | captured bytes 5822 | unique ordered bytes 5822 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1311064309 through 1311070131 (exclusive), 5822 ordered bytes
+  Reassembled 192.168.111.130:38216 -> 142.250.134.132:443 | payload segments 4 | captured bytes 2107 | unique ordered bytes 2107 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3016115568 through 3016117675 (exclusive), 2107 ordered bytes
+TCP flow: 142.250.143.94:443 <-> 192.168.111.130:56454 | packets 21/17 | TCP payload bytes 24984/2534 | SYN seen | FIN seen
+  Reassembled 142.250.143.94:443 -> 192.168.111.130:56454 | payload segments 9 | captured bytes 24984 | unique ordered bytes 24984 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 719408318 through 719433302 (exclusive), 24984 ordered bytes
+  Reassembled 192.168.111.130:56454 -> 142.250.143.94:443 | payload segments 8 | captured bytes 2534 | unique ordered bytes 2534 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2087833731 through 2087836265 (exclusive), 2534 ordered bytes
+TCP flow: 142.250.143.94:443 <-> 192.168.111.130:56466 | packets 11/10 | TCP payload bytes 5832/2097 | SYN seen | FIN seen
+  Reassembled 142.250.143.94:443 -> 192.168.111.130:56466 | payload segments 3 | captured bytes 5832 | unique ordered bytes 5832 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 338825961 through 338831793 (exclusive), 5832 ordered bytes
+  Reassembled 192.168.111.130:56466 -> 142.250.143.94:443 | payload segments 4 | captured bytes 2097 | unique ordered bytes 2097 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 645211579 through 645213676 (exclusive), 2097 ordered bytes
+TCP flow: 142.250.143.100:443 <-> 192.168.111.130:47206 | packets 17/16 | TCP payload bytes 28216/2489 | SYN seen | FIN seen
+  Reassembled 142.250.143.100:443 -> 192.168.111.130:47206 | payload segments 5 | captured bytes 28216 | unique ordered bytes 28216 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1539603995 through 1539632211 (exclusive), 28216 ordered bytes
+  Reassembled 192.168.111.130:47206 -> 142.250.143.100:443 | payload segments 8 | captured bytes 2489 | unique ordered bytes 2489 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2837217809 through 2837220298 (exclusive), 2489 ordered bytes
+TCP flow: 142.250.146.141:443 <-> 192.168.111.130:60902 | packets 13/12 | TCP payload bytes 6772/2168 | SYN seen
+  Reassembled 142.250.146.141:443 -> 192.168.111.130:60902 | payload segments 5 | captured bytes 6772 | unique ordered bytes 6772 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 473705588 through 473712360 (exclusive), 6772 ordered bytes
+  Reassembled 192.168.111.130:60902 -> 142.250.146.141:443 | payload segments 6 | captured bytes 2168 | unique ordered bytes 2168 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 737542293 through 737544461 (exclusive), 2168 ordered bytes
+TCP flow: 142.250.195.74:443 <-> 192.168.111.130:44332 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 142.250.207.174:443 <-> 192.168.111.130:60814 | packets 28/27 | TCP payload bytes 83059/2549 | SYN seen | FIN seen
+  Reassembled 142.250.207.174:443 -> 192.168.111.130:60814 | payload segments 17 | captured bytes 83059 | unique ordered bytes 83059 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1123642332 through 1123725391 (exclusive), 83059 ordered bytes
+  Reassembled 192.168.111.130:60814 -> 142.250.207.174:443 | payload segments 7 | captured bytes 2549 | unique ordered bytes 2549 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3774068363 through 3774070912 (exclusive), 2549 ordered bytes
+TCP flow: 142.250.207.174:443 <-> 192.168.111.130:60828 | packets 11/10 | TCP payload bytes 6853/2115 | SYN seen | FIN seen
+  Reassembled 142.250.207.174:443 -> 192.168.111.130:60828 | payload segments 3 | captured bytes 6853 | unique ordered bytes 6853 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1290093028 through 1290099881 (exclusive), 6853 ordered bytes
+  Reassembled 192.168.111.130:60828 -> 142.250.207.174:443 | payload segments 4 | captured bytes 2115 | unique ordered bytes 2115 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 546365789 through 546367904 (exclusive), 2115 ordered bytes
+TCP flow: 142.251.126.132:443 <-> 192.168.111.130:40112 | packets 16/15 | TCP payload bytes 14373/2495 | SYN seen | FIN seen
+  Reassembled 142.251.126.132:443 -> 192.168.111.130:40112 | payload segments 4 | captured bytes 14373 | unique ordered bytes 14373 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 945619424 through 945633797 (exclusive), 14373 ordered bytes
+  Reassembled 192.168.111.130:40112 -> 142.251.126.132:443 | payload segments 8 | captured bytes 2495 | unique ordered bytes 2495 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1878487112 through 1878489607 (exclusive), 2495 ordered bytes
+TCP flow: 142.251.126.132:443 <-> 192.168.111.130:40120 | packets 10/9 | TCP payload bytes 5843/2109 | SYN seen | FIN seen
+  Reassembled 142.251.126.132:443 -> 192.168.111.130:40120 | payload segments 3 | captured bytes 5843 | unique ordered bytes 5843 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 174220400 through 174226243 (exclusive), 5843 ordered bytes
+  Reassembled 192.168.111.130:40120 -> 142.251.126.132:443 | payload segments 4 | captured bytes 2109 | unique ordered bytes 2109 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1589598800 through 1589600909 (exclusive), 2109 ordered bytes
+TCP flow: 151.101.209.91:443 <-> 192.168.111.130:50184 | packets 8/8 | TCP payload bytes 102/141 | FIN seen
+  Reassembled 151.101.209.91:443 -> 192.168.111.130:50184 | payload segments 3 | captured bytes 102 | unique ordered bytes 102 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 1580711295 through 1580711397 (exclusive), 102 ordered bytes
+  Reassembled 192.168.111.130:50184 -> 151.101.209.91:443 | payload segments 4 | captured bytes 141 | unique ordered bytes 141 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 734147140 through 734147281 (exclusive), 141 ordered bytes
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42494 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42508 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42514 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 172.64.148.235:443 <-> 192.168.111.130:52078 | packets 28/21 | TCP payload bytes 580/644
+  Reassembled 172.64.148.235:443 -> 192.168.111.130:52078 | payload segments 14 | captured bytes 580 | unique ordered bytes 580 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 347630893 through 347631473 (exclusive), 580 ordered bytes
+  Reassembled 192.168.111.130:52078 -> 172.64.148.235:443 | payload segments 14 | captured bytes 644 | unique ordered bytes 644 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 2107906110 through 2107906754 (exclusive), 644 ordered bytes
+TCP flow: 172.64.150.28:443 <-> 192.168.111.130:56554 | packets 54/37 | TCP payload bytes 3011/35233
+  Reassembled 172.64.150.28:443 -> 192.168.111.130:56554 | payload segments 11 | captured bytes 3011 | unique ordered bytes 3011 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 717688991 through 717692002 (exclusive), 3011 ordered bytes
+  Reassembled 192.168.111.130:56554 -> 172.64.150.28:443 | payload segments 24 | captured bytes 35233 | unique ordered bytes 35233 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 2563392574 through 2563427807 (exclusive), 35233 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:35510 | packets 16/10 | TCP payload bytes 5717/15458 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:35510 | payload segments 2 | captured bytes 5717 | unique ordered bytes 5717 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 942150524 through 942156241 (exclusive), 5717 ordered bytes
+  Reassembled 192.168.111.130:35510 -> 172.64.155.209:443 | payload segments 4 | captured bytes 15458 | unique ordered bytes 15458 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 756722263 through 756737721 (exclusive), 15458 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:35520 | packets 16/10 | TCP payload bytes 5939/15460 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:35520 | payload segments 2 | captured bytes 5939 | unique ordered bytes 5939 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 792740582 through 792746521 (exclusive), 5939 ordered bytes
+  Reassembled 192.168.111.130:35520 -> 172.64.155.209:443 | payload segments 4 | captured bytes 15460 | unique ordered bytes 15460 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1196898814 through 1196914274 (exclusive), 15460 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:36618 | packets 20/10 | TCP payload bytes 280/320
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:36618 | payload segments 10 | captured bytes 280 | unique ordered bytes 280 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 926254079 through 926254359 (exclusive), 280 ordered bytes
+  Reassembled 192.168.111.130:36618 -> 172.64.155.209:443 | payload segments 10 | captured bytes 320 | unique ordered bytes 320 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 512665080 through 512665400 (exclusive), 320 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:37482 | packets 17/12 | TCP payload bytes 5941/15463 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:37482 | payload segments 3 | captured bytes 5941 | unique ordered bytes 5941 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 592346553 through 592352494 (exclusive), 5941 ordered bytes
+  Reassembled 192.168.111.130:37482 -> 172.64.155.209:443 | payload segments 5 | captured bytes 15463 | unique ordered bytes 15463 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2053547467 through 2053562930 (exclusive), 15463 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:37492 | packets 260/53 | TCP payload bytes 5727/355720 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:37492 | payload segments 2 | captured bytes 5727 | unique ordered bytes 5727 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1815420093 through 1815425820 (exclusive), 5727 ordered bytes
+  Reassembled 192.168.111.130:37492 -> 172.64.155.209:443 | payload segments 47 | captured bytes 355720 | unique ordered bytes 355720 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3879349349 through 3879705069 (exclusive), 355720 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39304 | packets 21/13 | TCP payload bytes 5728/21001 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39304 | payload segments 3 | captured bytes 5728 | unique ordered bytes 5728 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1450908390 through 1450914118 (exclusive), 5728 ordered bytes
+  Reassembled 192.168.111.130:39304 -> 172.64.155.209:443 | payload segments 6 | captured bytes 21001 | unique ordered bytes 21001 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1703323093 through 1703344094 (exclusive), 21001 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39320 | packets 36/19 | TCP payload bytes 5937/45302 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39320 | payload segments 2 | captured bytes 5937 | unique ordered bytes 5937 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2046175109 through 2046181046 (exclusive), 5937 ordered bytes
+  Reassembled 192.168.111.130:39320 -> 172.64.155.209:443 | payload segments 13 | captured bytes 45302 | unique ordered bytes 45302 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2353977183 through 2354022485 (exclusive), 45302 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39330 | packets 37/32 | TCP payload bytes 318691/4493 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39330 | payload segments 28 | captured bytes 318691 | unique ordered bytes 318691 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1888819176 through 1889137867 (exclusive), 318691 ordered bytes
+  Reassembled 192.168.111.130:39330 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4493 | unique ordered bytes 4493 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1212820230 through 1212824723 (exclusive), 4493 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39336 | packets 16/14 | TCP payload bytes 33496/4532 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39336 | payload segments 7 | captured bytes 33496 | unique ordered bytes 33496 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 970946655 through 970980151 (exclusive), 33496 ordered bytes
+  Reassembled 192.168.111.130:39336 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4532 | unique ordered bytes 4532 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2560678959 through 2560683491 (exclusive), 4532 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39348 | packets 33/24 | TCP payload bytes 89973/13584 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39348 | payload segments 14 | captured bytes 89973 | unique ordered bytes 89973 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1259959794 through 1260049767 (exclusive), 89973 ordered bytes
+  Reassembled 192.168.111.130:39348 -> 172.64.155.209:443 | payload segments 7 | captured bytes 13584 | unique ordered bytes 13584 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3823010947 through 3823024531 (exclusive), 13584 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39350 | packets 12/10 | TCP payload bytes 5519/4624 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39350 | payload segments 2 | captured bytes 5519 | unique ordered bytes 5519 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1664945420 through 1664950939 (exclusive), 5519 ordered bytes
+  Reassembled 192.168.111.130:39350 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4624 | unique ordered bytes 4624 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2601625576 through 2601630200 (exclusive), 4624 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39366 | packets 297/106 | TCP payload bytes 94242/299736 | SYN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:39366 | payload segments 71 | captured bytes 94242 | unique ordered bytes 94242 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1224703421 through 1224797663 (exclusive), 94242 ordered bytes
+  Reassembled 192.168.111.130:39366 -> 172.64.155.209:443 | payload segments 40 | captured bytes 299736 | unique ordered bytes 299736 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3080805469 through 3081105205 (exclusive), 299736 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:40148 | packets 7/4 | TCP payload bytes 82/64 | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:40148 | payload segments 3 | captured bytes 82 | unique ordered bytes 82 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 2096166047 through 2096166129 (exclusive), 82 ordered bytes
+  Reassembled 192.168.111.130:40148 -> 172.64.155.209:443 | payload segments 2 | captured bytes 64 | unique ordered bytes 64 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN seen | partial/uncertain
+    run 0: sequence 1738664746 through 1738664810 (exclusive), 64 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43688 | packets 12/10 | TCP payload bytes 5536/4849 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:43688 | payload segments 2 | captured bytes 5536 | unique ordered bytes 5536 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1278365969 through 1278371505 (exclusive), 5536 ordered bytes
+  Reassembled 192.168.111.130:43688 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4849 | unique ordered bytes 4849 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3123930809 through 3123935658 (exclusive), 4849 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43702 | packets 12/9 | TCP payload bytes 5333/4849 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:43702 | payload segments 2 | captured bytes 5333 | unique ordered bytes 5333 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 186608683 through 186614016 (exclusive), 5333 ordered bytes
+  Reassembled 192.168.111.130:43702 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4849 | unique ordered bytes 4849 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1998874780 through 1998879629 (exclusive), 4849 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43708 | packets 13/9 | TCP payload bytes 5339/6856 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:43708 | payload segments 2 | captured bytes 5339 | unique ordered bytes 5339 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 534000416 through 534005755 (exclusive), 5339 ordered bytes
+  Reassembled 192.168.111.130:43708 -> 172.64.155.209:443 | payload segments 4 | captured bytes 6856 | unique ordered bytes 6856 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1309422044 through 1309428900 (exclusive), 6856 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:49940 | packets 37/27 | TCP payload bytes 89963/13583 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:49940 | payload segments 18 | captured bytes 89963 | unique ordered bytes 89963 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1099437012 through 1099526975 (exclusive), 89963 ordered bytes
+  Reassembled 192.168.111.130:49940 -> 172.64.155.209:443 | payload segments 7 | captured bytes 13583 | unique ordered bytes 13583 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3990818488 through 3990832071 (exclusive), 13583 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:49950 | packets 12/9 | TCP payload bytes 5322/4624 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:49950 | payload segments 2 | captured bytes 5322 | unique ordered bytes 5322 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 340471556 through 340476878 (exclusive), 5322 ordered bytes
+  Reassembled 192.168.111.130:49950 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4624 | unique ordered bytes 4624 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2235820873 through 2235825497 (exclusive), 4624 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50496 | packets 9/9 | TCP payload bytes 7818/3164 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:50496 | payload segments 3 | captured bytes 7818 | unique ordered bytes 7818 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1340622839 through 1340630657 (exclusive), 7818 ordered bytes
+  Reassembled 192.168.111.130:50496 -> 172.64.155.209:443 | payload segments 2 | captured bytes 3164 | unique ordered bytes 3164 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3869151669 through 3869154833 (exclusive), 3164 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50500 | packets 8/8 | TCP payload bytes 5522/2792 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:50500 | payload segments 2 | captured bytes 5522 | unique ordered bytes 5522 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 201094669 through 201100191 (exclusive), 5522 ordered bytes
+  Reassembled 192.168.111.130:50500 -> 172.64.155.209:443 | payload segments 2 | captured bytes 2792 | unique ordered bytes 2792 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 310386128 through 310388920 (exclusive), 2792 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50514 | packets 37/35 | TCP payload bytes 318714/4488 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:50514 | payload segments 28 | captured bytes 318714 | unique ordered bytes 318714 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 627203839 through 627522553 (exclusive), 318714 ordered bytes
+  Reassembled 192.168.111.130:50514 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4488 | unique ordered bytes 4488 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 626511247 through 626515735 (exclusive), 4488 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50894 | packets 46/41 | TCP payload bytes 318713/4488 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:50894 | payload segments 37 | captured bytes 318713 | unique ordered bytes 318713 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2026532288 through 2026851001 (exclusive), 318713 ordered bytes
+  Reassembled 192.168.111.130:50894 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4488 | unique ordered bytes 4488 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 34178988 through 34183476 (exclusive), 4488 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:54720 | packets 40/35 | TCP payload bytes 318720/4498 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:54720 | payload segments 31 | captured bytes 318720 | unique ordered bytes 318720 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2002389546 through 2002708266 (exclusive), 318720 ordered bytes
+  Reassembled 192.168.111.130:54720 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4498 | unique ordered bytes 4498 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2418306553 through 2418311051 (exclusive), 4498 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:56740 | packets 0/1 | TCP payload bytes 0/0
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:56756 | packets 0/1 | TCP payload bytes 0/0
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:60240 | packets 45/38 | TCP payload bytes 318693/4492 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:60240 | payload segments 36 | captured bytes 318693 | unique ordered bytes 318693 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1610121155 through 1610439848 (exclusive), 318693 ordered bytes
+  Reassembled 192.168.111.130:60240 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4492 | unique ordered bytes 4492 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 552776797 through 552781289 (exclusive), 4492 ordered bytes
+TCP flow: 192.168.111.130:34830 <-> 192.178.211.155:443 | packets 13/14 | TCP payload bytes 2174/5897 | SYN seen
+  Reassembled 192.168.111.130:34830 -> 192.178.211.155:443 | payload segments 6 | captured bytes 2174 | unique ordered bytes 2174 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2163051957 through 2163054131 (exclusive), 2174 ordered bytes
+  Reassembled 192.178.211.155:443 -> 192.168.111.130:34830 | payload segments 6 | captured bytes 5897 | unique ordered bytes 5897 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 989473041 through 989478938 (exclusive), 5897 ordered bytes
+TCP flow: 192.168.111.130:47372 <-> 192.178.158.188:5228 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 192.168.111.130:47378 <-> 192.178.158.188:5228 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 192.168.111.130:58668 <-> 192.178.211.95:443 | packets 10/10 | TCP payload bytes 2118/6243 | SYN seen
+  Reassembled 192.168.111.130:58668 -> 192.178.211.95:443 | payload segments 4 | captured bytes 2118 | unique ordered bytes 2118 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 3496005909 through 3496008027 (exclusive), 2118 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58668 | payload segments 4 | captured bytes 6243 | unique ordered bytes 6243 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1278946085 through 1278952328 (exclusive), 6243 ordered bytes
+TCP flow: 192.168.111.130:58678 <-> 192.178.211.95:443 | packets 9/10 | TCP payload bytes 2118/6243 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:58678 -> 192.178.211.95:443 | payload segments 4 | captured bytes 2118 | unique ordered bytes 2118 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2515832636 through 2515834754 (exclusive), 2118 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58678 | payload segments 3 | captured bytes 6243 | unique ordered bytes 6243 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1125741404 through 1125747647 (exclusive), 6243 ordered bytes
+TCP flow: 192.168.111.130:58686 <-> 192.178.211.95:443 | packets 10/12 | TCP payload bytes 2118/6244 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:58686 -> 192.178.211.95:443 | payload segments 4 | captured bytes 2118 | unique ordered bytes 2118 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 4067096236 through 4067098354 (exclusive), 2118 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58686 | payload segments 4 | captured bytes 6244 | unique ordered bytes 6244 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2007266127 through 2007272371 (exclusive), 6244 ordered bytes
+TCP flow: 192.168.111.130:58692 <-> 192.178.211.95:443 | packets 19/24 | TCP payload bytes 2745/9308 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:58692 -> 192.178.211.95:443 | payload segments 11 | captured bytes 2745 | unique ordered bytes 2745 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3291521056 through 3291523801 (exclusive), 2745 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58692 | payload segments 9 | captured bytes 9308 | unique ordered bytes 9308 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 1336889760 through 1336899068 (exclusive), 9308 ordered bytes
+TCP flow: 192.168.111.130:58698 <-> 192.178.211.95:443 | packets 9/11 | TCP payload bytes 2118/6242 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:58698 -> 192.178.211.95:443 | payload segments 4 | captured bytes 2118 | unique ordered bytes 2118 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2889397364 through 2889399482 (exclusive), 2118 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58698 | payload segments 3 | captured bytes 6242 | unique ordered bytes 6242 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 923497411 through 923503653 (exclusive), 6242 ordered bytes
+TCP flow: 192.168.111.130:58706 <-> 192.178.211.95:443 | packets 10/10 | TCP payload bytes 2118/6244 | SYN seen
+  Reassembled 192.168.111.130:58706 -> 192.178.211.95:443 | payload segments 4 | captured bytes 2118 | unique ordered bytes 2118 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 2285045595 through 2285047713 (exclusive), 2118 ordered bytes
+  Reassembled 192.178.211.95:443 -> 192.168.111.130:58706 | payload segments 4 | captured bytes 6244 | unique ordered bytes 6244 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 714564440 through 714570684 (exclusive), 6244 ordered bytes

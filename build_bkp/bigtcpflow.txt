@@ -1,0 +1,104 @@
+Classic PCAP, microsecond timestamps; Ethernet link type
+Packets read: 4025
+Packets skipped (unsupported protocol or malformed): 0
+Bidirectional IPv4/TCP flows: 99
+
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60116 | packets 12/12 | TCP payload bytes 9474/2751 | SYN seen
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60126 | packets 14/14 | TCP payload bytes 9604/4852 | SYN seen
+TCP flow: 4.150.223.115:443 <-> 192.168.111.130:60140 | packets 8/8 | TCP payload bytes 9042/2153 | SYN seen | FIN seen
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:45904 | packets 18/17 | TCP payload bytes 25522/4582 | SYN seen
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:45912 | packets 17/16 | TCP payload bytes 10223/4923 | SYN seen
+TCP flow: 13.107.5.93:443 <-> 192.168.111.130:54114 | packets 14/14 | TCP payload bytes 11414/1476 | SYN seen | FIN seen
+TCP flow: 13.107.213.48:443 <-> 192.168.111.130:37100 | packets 14/13 | TCP payload bytes 11801/2647 | SYN seen | FIN seen
+TCP flow: 13.107.213.48:443 <-> 192.168.111.130:41136 | packets 18/16 | TCP payload bytes 12615/2802 | SYN seen | FIN seen
+TCP flow: 13.107.246.48:443 <-> 192.168.111.130:60886 | packets 20/18 | TCP payload bytes 90052/2586 | SYN seen | FIN seen
+TCP flow: 20.184.175.11:443 <-> 192.168.111.130:38038 | packets 60/38 | TCP payload bytes 10081/47227 | SYN seen
+TCP flow: 20.207.73.85:443 <-> 192.168.111.130:42392 | packets 27/24 | TCP payload bytes 14901/3183 | SYN seen | FIN seen
+TCP flow: 34.54.185.247:443 <-> 192.168.111.130:46248 | packets 21/20 | TCP payload bytes 5020/4034 | SYN seen | FIN seen
+TCP flow: 34.54.185.247:443 <-> 192.168.111.130:46258 | packets 10/9 | TCP payload bytes 4155/2112 | SYN seen | FIN seen
+TCP flow: 34.107.243.93:443 <-> 192.168.111.130:57862 | packets 8/8 | TCP payload bytes 78/141 | FIN seen
+FTP control candidate: 44.241.66.173:21 <-> 192.168.111.130:53360 | packets 30/24 | TCP payload bytes 566/265 | SYN seen
+TCP flow: 44.241.66.173:1083 <-> 192.168.111.130:36060 | packets 262/77 | TCP payload bytes 0/364566 | SYN seen | FIN seen
+TCP flow: 44.241.66.173:1107 <-> 192.168.111.130:45900 | packets 3/4 | TCP payload bytes 2892/0 | SYN seen | FIN seen
+TCP flow: 52.140.63.241:443 <-> 192.168.111.130:55838 | packets 15/15 | TCP payload bytes 7846/2857 | SYN seen
+TCP flow: 52.140.63.241:443 <-> 192.168.111.130:55844 | packets 18/16 | TCP payload bytes 8234/3196 | SYN seen
+TCP flow: 91.189.91.61:80 <-> 192.168.111.130:50550 | packets 4/4 | TCP payload bytes 79/87 | SYN seen | FIN seen
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33124 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33126 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:33128 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42916 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42932 | packets 1/1 | TCP payload bytes 0/0 | FIN seen
+TCP flow: 103.230.151.216:443 <-> 192.168.111.130:42938 | packets 1/2 | TCP payload bytes 0/0
+TCP flow: 104.16.79.73:443 <-> 192.168.111.130:54526 | packets 16/12 | TCP payload bytes 14413/2469 | SYN seen
+TCP flow: 104.16.79.73:443 <-> 192.168.111.130:54540 | packets 10/9 | TCP payload bytes 3818/2111 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:33362 | packets 8/8 | TCP payload bytes 5526/2792 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:36920 | packets 19/11 | TCP payload bytes 9717/15355 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:36924 | packets 8/8 | TCP payload bytes 5529/2792 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:42646 | packets 24/13 | TCP payload bytes 5194/23929 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:42658 | packets 8/8 | TCP payload bytes 5080/2804 | SYN seen | FIN seen
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:48332 | packets 169/76 | TCP payload bytes 13316/172075
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:58058 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:60664 | packets 8/8 | TCP payload bytes 5076/2804 | SYN seen | FIN seen
+TCP flow: 104.18.39.21:443 <-> 192.168.111.130:39484 | packets 30/22 | TCP payload bytes 604/672
+TCP flow: 104.21.79.170:443 <-> 192.168.111.130:56232 | packets 14/13 | TCP payload bytes 11672/3186 | SYN seen | FIN seen
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48742 | packets 26/22 | TCP payload bytes 108785/2551 | SYN seen
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48746 | packets 10/9 | TCP payload bytes 3790/2100 | SYN seen | FIN seen
+TCP flow: 104.26.9.123:443 <-> 192.168.111.130:48748 | packets 10/9 | TCP payload bytes 3792/2100 | SYN seen | FIN seen
+TCP flow: 142.250.70.104:443 <-> 192.168.111.130:34810 | packets 10/9 | TCP payload bytes 6415/2106 | SYN seen | FIN seen
+TCP flow: 142.250.70.104:443 <-> 192.168.111.130:34824 | packets 35/34 | TCP payload bytes 144305/2459 | SYN seen | FIN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38172 | packets 11/10 | TCP payload bytes 5820/2107 | SYN seen | FIN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38180 | packets 12/11 | TCP payload bytes 5822/2107 | SYN seen | FIN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38186 | packets 9/9 | TCP payload bytes 5820/2107 | SYN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38200 | packets 11/10 | TCP payload bytes 5821/2107 | SYN seen | FIN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38204 | packets 23/19 | TCP payload bytes 26197/2853 | SYN seen | FIN seen
+TCP flow: 142.250.134.132:443 <-> 192.168.111.130:38216 | packets 12/11 | TCP payload bytes 5822/2107 | SYN seen | FIN seen
+TCP flow: 142.250.143.94:443 <-> 192.168.111.130:56454 | packets 21/17 | TCP payload bytes 24984/2534 | SYN seen | FIN seen
+TCP flow: 142.250.143.94:443 <-> 192.168.111.130:56466 | packets 11/10 | TCP payload bytes 5832/2097 | SYN seen | FIN seen
+TCP flow: 142.250.143.100:443 <-> 192.168.111.130:47206 | packets 17/16 | TCP payload bytes 28216/2489 | SYN seen | FIN seen
+TCP flow: 142.250.146.141:443 <-> 192.168.111.130:60902 | packets 13/12 | TCP payload bytes 6772/2168 | SYN seen
+TCP flow: 142.250.195.74:443 <-> 192.168.111.130:44332 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 142.250.207.174:443 <-> 192.168.111.130:60814 | packets 28/27 | TCP payload bytes 83059/2549 | SYN seen | FIN seen
+TCP flow: 142.250.207.174:443 <-> 192.168.111.130:60828 | packets 11/10 | TCP payload bytes 6853/2115 | SYN seen | FIN seen
+TCP flow: 142.251.126.132:443 <-> 192.168.111.130:40112 | packets 16/15 | TCP payload bytes 14373/2495 | SYN seen | FIN seen
+TCP flow: 142.251.126.132:443 <-> 192.168.111.130:40120 | packets 10/9 | TCP payload bytes 5843/2109 | SYN seen | FIN seen
+TCP flow: 151.101.209.91:443 <-> 192.168.111.130:50184 | packets 8/8 | TCP payload bytes 102/141 | FIN seen
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42494 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42508 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 169.254.169.254:80 <-> 192.168.111.130:42514 | packets 1/1 | TCP payload bytes 0/0 | SYN seen
+TCP flow: 172.64.148.235:443 <-> 192.168.111.130:52078 | packets 28/21 | TCP payload bytes 580/644
+TCP flow: 172.64.150.28:443 <-> 192.168.111.130:56554 | packets 54/37 | TCP payload bytes 3011/35233
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:35510 | packets 16/10 | TCP payload bytes 5717/15458 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:35520 | packets 16/10 | TCP payload bytes 5939/15460 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:36618 | packets 20/10 | TCP payload bytes 280/320
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:37482 | packets 17/12 | TCP payload bytes 5941/15463 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:37492 | packets 260/53 | TCP payload bytes 5727/355720 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39304 | packets 21/13 | TCP payload bytes 5728/21001 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39320 | packets 36/19 | TCP payload bytes 5937/45302 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39330 | packets 37/32 | TCP payload bytes 318691/4493 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39336 | packets 16/14 | TCP payload bytes 33496/4532 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39348 | packets 33/24 | TCP payload bytes 89973/13584 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39350 | packets 12/10 | TCP payload bytes 5519/4624 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:39366 | packets 297/106 | TCP payload bytes 94242/299736 | SYN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:40148 | packets 7/4 | TCP payload bytes 82/64 | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43688 | packets 12/10 | TCP payload bytes 5536/4849 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43702 | packets 12/9 | TCP payload bytes 5333/4849 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:43708 | packets 13/9 | TCP payload bytes 5339/6856 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:49940 | packets 37/27 | TCP payload bytes 89963/13583 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:49950 | packets 12/9 | TCP payload bytes 5322/4624 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50496 | packets 9/9 | TCP payload bytes 7818/3164 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50500 | packets 8/8 | TCP payload bytes 5522/2792 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50514 | packets 37/35 | TCP payload bytes 318714/4488 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:50894 | packets 46/41 | TCP payload bytes 318713/4488 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:54720 | packets 40/35 | TCP payload bytes 318720/4498 | SYN seen | FIN seen
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:56740 | packets 0/1 | TCP payload bytes 0/0
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:56756 | packets 0/1 | TCP payload bytes 0/0
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:60240 | packets 45/38 | TCP payload bytes 318693/4492 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:34830 <-> 192.178.211.155:443 | packets 13/14 | TCP payload bytes 2174/5897 | SYN seen
+TCP flow: 192.168.111.130:47372 <-> 192.178.158.188:5228 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 192.168.111.130:47378 <-> 192.178.158.188:5228 | packets 5/5 | TCP payload bytes 0/0
+TCP flow: 192.168.111.130:58668 <-> 192.178.211.95:443 | packets 10/10 | TCP payload bytes 2118/6243 | SYN seen
+TCP flow: 192.168.111.130:58678 <-> 192.178.211.95:443 | packets 9/10 | TCP payload bytes 2118/6243 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:58686 <-> 192.178.211.95:443 | packets 10/12 | TCP payload bytes 2118/6244 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:58692 <-> 192.178.211.95:443 | packets 19/24 | TCP payload bytes 2745/9308 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:58698 <-> 192.178.211.95:443 | packets 9/11 | TCP payload bytes 2118/6242 | SYN seen | FIN seen
+TCP flow: 192.168.111.130:58706 <-> 192.178.211.95:443 | packets 10/10 | TCP payload bytes 2118/6244 | SYN seen
