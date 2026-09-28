@@ -80,54 +80,133 @@ bool readExact(std::istream& in, uint8_t* out, size_t size) {
 
 void parsePacket(const std::vector<uint8_t>& frame, std::map<FlowKey, FlowStats>& flows,
                  uint64_t& skipped) {
-    // Ethernet II header: 6-byte destination, 6-byte source, 2-byte EtherType.
-    if (frame.size() < 14) { ++skipped; return; }
-    size_t offset = 14;
-    const uint16_t etherType = be16(frame.data() + 12);
-    if (etherType != 0x0800) { ++skipped; return; } // First version: IPv4 only.
+    // Example frame: [Ethernet: 14 bytes][IPv4: usually 20][TCP: usually 20][payload].
+    // For an FTP control packet, the payload might contain text such as "USER bob\r\n".
 
-    // IPv4 header length is variable because options may be present.
+    // Ethernet II needs 14 bytes: destination MAC (6), source MAC (6), and EtherType (2).
+    // If the frame is shorter, count it as skipped and stop before reading outside the buffer.
+    if (frame.size() < 14) { ++skipped; return; }
+
+    // Bytes 0..13 are Ethernet; the next header (IPv4, if supported) starts at byte 14.
+    size_t offset = 14;
+
+    // Ethernet bytes 12..13 identify the next protocol. be16 reads the value in network byte order.
+    const uint16_t etherType = be16(frame.data() + 12);
+
+    // 0x0800 means IPv4. This parser does not handle other Ethernet payload types.
+    if (etherType != 0x0800) { ++skipped; return; }
+
+    // IPv4's minimum header is 20 bytes; verify those bytes were captured before inspecting them.
     if (frame.size() < offset + 20) { ++skipped; return; }
+
+    // Point to the first byte of the IPv4 header (byte 14 of the Ethernet frame).
     const uint8_t* ip = frame.data() + offset;
+
+    // The high four bits of IPv4 byte 0 are the IP version; value 4 means IPv4.
     if ((ip[0] >> 4) != 4) { ++skipped; return; }
+
+    // The low four bits of IPv4 byte 0 give header length in 4-byte words; 5 means 20 bytes.
+    // A larger value is possible when the IPv4 header contains options.
     const size_t ipHeaderLen = static_cast<size_t>(ip[0] & 0x0f) * 4;
+
+    // IPv4 bytes 2..3 give total IP packet length, including the IP header and TCP data.
     const uint16_t totalLen = be16(ip + 2);
+
+    // Validate lengths before using them: header >= 20, total >= header, and the captured frame
+    // must contain the complete declared IP packet. Otherwise, skip this malformed/truncated frame.
     if (ipHeaderLen < 20 || totalLen < ipHeaderLen || frame.size() < offset + ipHeaderLen ||
         frame.size() < offset + totalLen) { ++skipped; return; }
-    if (ip[9] != 6) { ++skipped; return; } // TCP protocol number.
+
+    // IPv4 byte 9 identifies the next protocol; value 6 means TCP (UDP, for example, is 17).
+    if (ip[9] != 6) { ++skipped; return; }
+
+    // IPv4 bytes 6..7 hold fragment flags and fragment offset.
     const uint16_t frag = be16(ip + 6);
+
+    // Reject later fragments (nonzero offset) and packets marked "more fragments".
+    // This program does not reassemble IP fragments, so it cannot safely parse their TCP headers.
     if ((frag & 0x1fff) != 0 || (frag & 0x2000) != 0) { ++skipped; return; }
 
+    // TCP starts after the IPv4 header; use its actual length so IPv4 options are accounted for.
     const uint8_t* tcp = ip + ipHeaderLen;
+
+    // Bytes remaining in the IP packet after its IP header: TCP header plus TCP payload.
     const size_t tcpAvailable = totalLen - ipHeaderLen;
+
+    // A TCP header must be at least 20 bytes before its fields can be read.
     if (tcpAvailable < 20) { ++skipped; return; }
+
+    // TCP byte 12's upper four bits give header length in 4-byte words; 5 means 20 bytes.
     const size_t tcpHeaderLen = static_cast<size_t>(tcp[12] >> 4) * 4;
+
+    // Reject a too-short TCP header or a header extending beyond the IP packet.
     if (tcpHeaderLen < 20 || tcpHeaderLen > tcpAvailable) { ++skipped; return; }
 
+    // Read source IP (IPv4 offset 12) and source port (TCP offset 0) into one endpoint.
     Endpoint src{be32(ip + 12), be16(tcp)};
+
+    // Read destination IP (IPv4 offset 16) and destination port (TCP offset 2).
     Endpoint dst{be32(ip + 16), be16(tcp + 2)};
+
+    // Compare endpoints so both directions of one connection can share a stable flow key.
     const bool srcFirst = src < dst;
+
+    // Store the lesser endpoint first regardless of which endpoint sent this packet.
     FlowKey key{srcFirst ? src : dst, srcFirst ? dst : src};
+
+    // Look up this connection's statistics, creating a new FlowStats entry if needed.
     FlowStats& stats = flows[key];
+
+    // Direction 0 is canonical first->second; direction 1 is second->first.
     const unsigned direction = srcFirst ? 0 : 1;
+
+    // Count this packet in its direction, even if it carries no payload (for example, a pure ACK).
     ++stats.packets[direction];
+
+    // TCP byte 13 contains flags including SYN (0x02) and FIN (0x01).
     const uint8_t flags = tcp[13];
+
+    // Payload is whatever remains in the IP packet after both IP and TCP headers.
     const size_t payloadLen = tcpAvailable - tcpHeaderLen;
+
+    // TCP bytes 4..7 contain the sequence number used later to order stream bytes.
     const uint32_t sequence = be32(tcp + 4);
+
+    // Count bytes observed in packets. Retransmitted bytes count again here; reassembly deduplicates later.
     stats.payloadBytes[direction] += payloadLen;
+
+    // Remember whether this direction has had a SYN flag; SYN establishes a stream boundary.
     stats.sawSyn[direction] |= (flags & 0x02) != 0;
+
+    // Remember whether this direction has had a FIN flag; FIN marks the sender's stream ending.
     stats.sawFin[direction] |= (flags & 0x01) != 0;
+
+    // Save the first SYN sequence number for this direction, if this packet carries SYN.
     if ((flags & 0x02) != 0 && !stats.synSequence[direction].has_value())
         stats.synSequence[direction] = sequence;
+
+    // Save the first FIN's expected payload end. Payload advances by payloadLen; SYN also consumes
+    // one sequence number when SYN and FIN happen to be set on the same packet.
     if ((flags & 0x01) != 0 && !stats.finSequence[direction].has_value())
         stats.finSequence[direction] = sequence + static_cast<uint32_t>(payloadLen) +
                                        ((flags & 0x02) != 0 ? 1U : 0U);
 
+    // Only packets with payload add application bytes to the stream; pure ACKs have none to save.
     if (payloadLen > 0) {
+        // Make a record carrying this packet's TCP payload for later sequence-aware reassembly.
         tcp::PayloadSegment segment;
+
+        // Preserve the TCP sequence number, which identifies where these payload bytes belong.
         segment.sequence = sequence;
+
+        // Preserve SYN because its sequence number comes before any payload in that segment.
         segment.syn = (flags & 0x02) != 0;
+
+        // Copy bytes after the TCP header through the end of TCP data in this IP packet.
+        // Example: if payloadLen is 10, this copies exactly 10 bytes such as "USER bob\r\n".
         segment.bytes.assign(tcp + tcpHeaderLen, tcp + tcpAvailable);
+
+        // Save in this flow's direction. std::move transfers the vector instead of copying it again.
         stats.payloadSegments[direction].push_back(std::move(segment));
     }
 }

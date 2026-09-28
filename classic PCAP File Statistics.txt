@@ -1,0 +1,41 @@
+classic PCAP File Statistics says
+it has 24 byte PCAP file header
+ 	Field  		Size  				Purpose 
+  Magic number 		4 bytes		Identifies classic PCAP and indicates byte order and timestamp precision 
+  Version major 	2 bytes  	Usually `2` 
+  Version minor 	2 bytes  	Usually `4` 
+  Time zone correction  4 bytes  	Legacy field; generally zero or ignored 
+  Timestamp accuracy    4 bytes  	Legacy field; generally zero or ignored 
+  Snapshot length       4 bytes  	Maximum number of packet bytes captured per packet 
+  Link type  		4 bytes 	What kind of link-layer header is inside each packet, such as Ethernet 
+
+
+
+after that it has packet captures 
+		
+┌──────────────────────────┐
+│ Global header: 24 bytes  │  once per file
+├──────────────────────────┤
+│ Packet record header     │  16 bytes
+│ Captured packet bytes    │  variable length
+├──────────────────────────┤
+│ Packet record header     │  16 bytes
+│ Captured packet bytes    │  variable length
+├──────────────────────────┤
+│ ...                      │
+└──────────────────────────┘
+
+Each Cpatured Row after global header consist of 
+Packet Record Header(16 bytes) + Captured packet bytes
+
+Packet Header Contains
+	 Field 		  Size 		 	 Purpose 
+
+  Timestamp seconds  	4 bytes 	  Whole seconds since the capture’s time origin  
+  Timestamp fraction    4 bytes      	  Fraction of a second, in microseconds or nanoseconds according to the magic number 
+  Captured length       4 bytes 	  Number of packet bytes actually stored in the file 
+  Original length       4 bytes 	  Packet length as reported before capture truncation 
+
+
+
+
