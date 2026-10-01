@@ -1,0 +1,74 @@
+Classic PCAP, microsecond timestamps; Ethernet link type
+Packets read: 735
+Packets skipped (unsupported protocol or malformed): 0
+Bidirectional IPv4/TCP flows: 12
+
+FTP control candidate: 44.241.66.173:21 <-> 192.168.111.130:40624 | packets 5/5 | TCP payload bytes 95/34
+  Reassembled 44.241.66.173:21 -> 192.168.111.130:40624 | payload segments 3 | captured bytes 95 | unique ordered bytes 95 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 1670400498 through 1670400593 (exclusive), 95 ordered bytes
+    FTP control lines (server -> client): 3
+      reply 227: 227 Entering Passive Mode (44,241,66,173,4,22).
+      reply 150: 150 Ok to send data.
+      reply 226: 226 Transfer complete.
+  Reassembled 192.168.111.130:40624 -> 44.241.66.173:21 | payload segments 2 | captured bytes 34 | unique ordered bytes 34 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 719758092 through 719758126 (exclusive), 34 ordered bytes
+    FTP control lines (client -> server): 2
+      command: PASV
+      command: STOR sample_1280×853.jpeg
+FTP control candidate: 44.241.66.173:21 <-> 192.168.111.130:48736 | packets 5/5 | TCP payload bytes 95/34
+  Reassembled 44.241.66.173:21 -> 192.168.111.130:48736 | payload segments 3 | captured bytes 95 | unique ordered bytes 95 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 1258516843 through 1258516938 (exclusive), 95 ordered bytes
+    FTP control lines (server -> client): 3
+      reply 227: 227 Entering Passive Mode (44,241,66,173,4,49).
+      reply 150: 150 Ok to send data.
+      reply 226: 226 Transfer complete.
+  Reassembled 192.168.111.130:48736 -> 44.241.66.173:21 | payload segments 2 | captured bytes 34 | unique ordered bytes 34 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 340343908 through 340343942 (exclusive), 34 ordered bytes
+    FTP control lines (client -> server): 2
+      command: PASV
+      command: STOR file-sample_150kB.pdf
+TCP flow: 44.241.66.173:1046 <-> 192.168.111.130:34318 | packets 239/82 | TCP payload bytes 0/334137 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:34318 -> 44.241.66.173:1046 | payload segments 74 | captured bytes 334137 | unique ordered bytes 334137 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 3838900598 through 3839234735 (exclusive), 334137 ordered bytes
+TCP flow: 44.241.66.173:1073 <-> 192.168.111.130:43338 | packets 266/33 | TCP payload bytes 0/355806 | SYN seen | FIN seen
+  Reassembled 192.168.111.130:43338 -> 44.241.66.173:1073 | payload segments 28 | captured bytes 355806 | unique ordered bytes 355806 | contiguous runs 2 | gaps 1 (8760 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | partial/uncertain
+    run 0: sequence 87750738 through 87791618 (exclusive), 40880 ordered bytes
+    run 1: sequence 87800378 through 88115304 (exclusive), 314926 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:32840 | packets 6/6 | TCP payload bytes 5078/2804 | SYN seen
+  Reassembled 104.18.32.47:443 -> 192.168.111.130:32840 | payload segments 2 | captured bytes 5078 | unique ordered bytes 5078 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 66525413 through 66530491 (exclusive), 5078 ordered bytes
+  Reassembled 192.168.111.130:32840 -> 104.18.32.47:443 | payload segments 2 | captured bytes 2804 | unique ordered bytes 2804 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN not seen | partial/uncertain
+    run 0: sequence 1012689504 through 1012692308 (exclusive), 2804 ordered bytes
+TCP flow: 104.18.32.47:443 <-> 192.168.111.130:48332 | packets 0/1 | TCP payload bytes 0/0
+TCP flow: 104.18.39.21:443 <-> 192.168.111.130:44240 | packets 2/1 | TCP payload bytes 24/28
+  Reassembled 104.18.39.21:443 -> 192.168.111.130:44240 | payload segments 1 | captured bytes 24 | unique ordered bytes 24 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 1187319009 through 1187319033 (exclusive), 24 ordered bytes
+  Reassembled 192.168.111.130:44240 -> 104.18.39.21:443 | payload segments 1 | captured bytes 28 | unique ordered bytes 28 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 571401713 through 571401741 (exclusive), 28 ordered bytes
+TCP flow: 142.250.195.74:443 <-> 192.168.111.130:44332 | packets 1/1 | TCP payload bytes 0/0
+TCP flow: 172.64.148.235:443 <-> 192.168.111.130:58046 | packets 2/1 | TCP payload bytes 24/28
+  Reassembled 172.64.148.235:443 -> 192.168.111.130:58046 | payload segments 1 | captured bytes 24 | unique ordered bytes 24 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 837050676 through 837050700 (exclusive), 24 ordered bytes
+  Reassembled 192.168.111.130:58046 -> 172.64.148.235:443 | payload segments 1 | captured bytes 28 | unique ordered bytes 28 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 3194862727 through 3194862755 (exclusive), 28 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:35642 | packets 36/33 | TCP payload bytes 318731/4488 | SYN seen | FIN seen
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:35642 | payload segments 27 | captured bytes 318731 | unique ordered bytes 318731 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2078031508 through 2078350239 (exclusive), 318731 ordered bytes
+  Reassembled 192.168.111.130:35642 -> 172.64.155.209:443 | payload segments 4 | captured bytes 4488 | unique ordered bytes 4488 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN seen | FIN seen | complete boundaries
+    run 0: sequence 2172832906 through 2172837394 (exclusive), 4488 ordered bytes
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:54496 | packets 1/1 | TCP payload bytes 0/0
+TCP flow: 172.64.155.209:443 <-> 192.168.111.130:59872 | packets 2/1 | TCP payload bytes 28/32
+  Reassembled 172.64.155.209:443 -> 192.168.111.130:59872 | payload segments 1 | captured bytes 28 | unique ordered bytes 28 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 548804773 through 548804801 (exclusive), 28 ordered bytes
+  Reassembled 192.168.111.130:59872 -> 172.64.155.209:443 | payload segments 1 | captured bytes 32 | unique ordered bytes 32 | contiguous runs 1 | gaps 0 (0 bytes) | overlapping bytes 0 | conflicting overlap bytes 0 | SYN not seen | FIN not seen | partial/uncertain
+    run 0: sequence 732355960 through 732355992 (exclusive), 32 ordered bytes
+
+FTP passive transfer associations:
+  STOR sample_1280×853.jpeg | passive endpoint 44.241.66.173:1046 | expected data direction client -> server
+    matched data flow 192.168.111.130:34318 -> 44.241.66.173:1046 | captured bytes 334137 | unique ordered bytes 334137 | gaps 0 (0 bytes) | complete TCP boundaries
+    reconstruction: complete | file sample_1280__853.jpeg
+  STOR file-sample_150kB.pdf | passive endpoint 44.241.66.173:1073 | expected data direction client -> server
+    matched data flow 192.168.111.130:43338 -> 44.241.66.173:1073 | captured bytes 355806 | unique ordered bytes 355806 | gaps 1 (8760 bytes) | partial/uncertain TCP stream
+    reconstruction: gapped_not_written | TCP sequence gaps are present; runs were not concatenated
+
+Reconstruction manifest: recovered/manifest.csv

@@ -35,6 +35,27 @@ Packet Header Contains
   Timestamp fraction    4 bytes      	  Fraction of a second, in microseconds or nanoseconds according to the magic number 
   Captured length       4 bytes 	  Number of packet bytes actually stored in the file 
   Original length       4 bytes 	  Packet length as reported before capture truncation 
+  
+
+After Packet header is parsed the remaining bytes are the FRAME 
+
+One Ethernet frame (captured bytes)
+┌───────────────────┬────────────────────┬─────────────────┬──────────────┐
+│ Ethernet header   │ IPv4 header        │  TCP header      │ TCP payload │
+│ 14 bytes minimum  │ 20+ bytes          │  20+ bytes       │ 0+ bytes    │
+└───────────────────┴────────────────────┴─────────────────┴──────────────┘
+
+ Part 			  What it contains 								 		What this code uses it for 
+
+ Ethernet header 	  Source and destination MAC addresses, and EtherType 					Checks the EtherType to see if the frame contains IPv4 
+ IPv4 header 		  Source and destination IP addresses, protocol, header length, total length   	 	Checks that it is TCP over IPv4 and locates the TCP header 
+ TCP header 		  Source/destination ports, sequence number, flags, header length 			Groups packets into flows and tracks sequence numbers and SYN/FIN 
+ TCP payload 		  Application bytes carried by TCP                                      Saves bytes for reassembly; for FTP control flows, these bytes contain commands/replies
+
+
+
+
+  
 
 
 
